@@ -25,17 +25,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mFaceOverlayView = (FaceOverlayView) findViewById(R.id.face_overlay);
-/////////////////
-//        InputStream stream = getResources().openRawResource(R.raw.face);
-//        bitmap = BitmapFactory.decodeStream(stream);
-
-//        Button scanBtn = (Button) findViewById(R.id.scanButton);
-//        scanBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                mFaceOverlayView.setBitmap(bitmap);
-//            }
-//        });
     }
 
     /**
